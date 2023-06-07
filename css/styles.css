@@ -836,15 +836,63 @@ a.header-link {
   pointer-events: none;
   visibility: hidden;
 }
+/* то чот в модальном окне */
+.modal-title {
+  /* font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 72px; */
+  padding-top: 48px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  color: #2e2f42;
+}
 
-/* .backdrop {
-  position: fixed;
+.input-wrap {
+  position: relative;
+  margin-bottom: 8px;
 }
-.is-hidden {
+
+.modal-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #4d5ae5;
+  border-radius: 4px;
+
+  padding-left: 38px;
+  box-sizing: border-box;
+  color: #4d5ae5;
 }
-.modal {
+
+.modal-input::placeholder {
+  color: #8e8f99;
+  /* font-size: 18px; */
 }
-.modal-close {
+
+.input-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
-.modal-soc-icon {
-} */
+.input-label span {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.modal-icon {
+  left: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #2e2f42;
+}
+.modal-fild {
+  margin-bottom: 10px;
+}
